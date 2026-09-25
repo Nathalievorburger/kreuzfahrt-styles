@@ -1,0 +1,23 @@
+/* MCCM Master Cruises – CruiseCompass Datepicker Branding
+   Aktueller Ist-Zustand (unbrandet, Default-Blau): #4274CB / #D6E3F4
+   Ziel: MCCM-Beige gemäss Hauptstylesheet.
+   Achtung: Klassennamen (.xt-day, .xt-date) sind nur teilweise
+   live bestätigt (Popup schloss sich vor vollständiger Prüfung) -
+   nach Einbindung unbedingt im Browser testen und ggf. anpassen. */
+
+.xt-date.active,
+.xt-day.active,
+.xt-day.selected {
+  background-color: #CDBEA6 !important;
+  color: #2F2E2E !important;
+}
+
+.xt-day.in-range,
+.xt-day.range {
+  background-color: #DFD6C7 !important;
+  color: #2F2E2E !important;
+}
+
+.xt-day:hover {
+  background-color: #DFD6C7 !important;
+}
