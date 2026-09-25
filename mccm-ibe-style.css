@@ -1,0 +1,39 @@
+/* MCCM Master Cruises – CruiseCompass IBE Branding
+   Farben übernommen aus der bisherigen, korrekt gebrandeten
+   Integration auf cruiseportal.de (Kunden-ID 104572) –
+   dort mit Abstand am häufigsten verwendete Werte.
+   Bitte von Nathalie/MCCM vor Live-Schaltung bestätigen lassen. */
+
+:root {
+  --bs-primary: #CDBEA6;
+  --bs-primary-rgb: 205, 190, 166;
+}
+
+/* Kopfbereich der Suche ("Suche" / "Kreuzfahrtsuche anzeigen") */
+.xtc-search-cruisefinder,
+.xtc-search-cruisefinder-extended {
+  background-color: #CDBEA6;
+  color: #2F2E2E;
+}
+
+/* Primäre Buttons (z.B. "Suchen", "zur Reise") */
+.btn-primary,
+.xtc-search-cruisefinder-button,
+.xtc-search-cruisefinder-extended-button {
+  background-color: #CDBEA6;
+  border-color: #CDBEA6;
+  color: #2F2E2E;
+}
+
+.btn-primary:hover,
+.xtc-search-cruisefinder-button:hover {
+  background-color: #DFD6C7;
+  border-color: #DFD6C7;
+}
+
+/* Badges / Hinweise (z.B. "Single-Spezial") */
+.badge-highlight,
+.xtc-search-offer-badge {
+  background-color: #B00614;
+  color: #ffffff;
+}
